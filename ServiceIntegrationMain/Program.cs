@@ -1,9 +1,14 @@
-﻿namespace ServiceIntegrationMain;
+﻿using ServiceIntegrationMain.Assets;
 
-class Program
+namespace ServiceIntegrationMain;
+
+internal class Program
 {
-    static void Main(string[] args)
+    private static int Main(string[] args)
     {
+        Console.WriteLine(Greeting.Welcome);
+        Console.WriteLine(Greeting.Askforchoice);
         
+        return 1;
     }
 }
