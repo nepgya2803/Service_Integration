@@ -5,7 +5,12 @@
 
 # dotenv files
 .env
-
+obj
+bin
+packages
+*.suo
+*.user
+_ReSharper.*
 # User-specific files
 *.rsuser
 *.suo
