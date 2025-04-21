@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utility\" />
+    <Folder Include="Utility\LogFactor\" />
   </ItemGroup>
 
 </Project>
